@@ -1,0 +1,152 @@
+
+{
+  "version": 1,
+  "title": "Danh sách ngày lễ Cao Đài",
+  "holidays": [
+    {
+      "id": "le-ruoc-chu-than",
+      "day": 1,
+      "month": 1,
+      "calendar": "lunar",
+      "name": "Lễ rước chư Thần, Thánh, Tiên, Phật",
+      "ceremony": "Tiểu đàn",
+      "note": ""
+    },
+    {
+      "id": "dai-le-duc-chi-ton",
+      "day": 9,
+      "month": 1,
+      "calendar": "lunar",
+      "name": "Đại lễ Đức Chí Tôn",
+      "ceremony": "Đại đàn",
+      "note": "Lễ lớn nhất năm",
+      "url": "https://www.google.com/search?q=Đại+lễ+Đức+Chí+Tôn"
+    },
+    {
+      "id": "le-thuong-nguyen",
+      "day": 15,
+      "month": 1,
+      "calendar": "lunar",
+      "name": "Lễ Thượng Ngươn",
+      "ceremony": "Đại đàn",
+      "note": ""
+    },
+    {
+      "id": "via-thai-thuong-lao-quan",
+      "day": 15,
+      "month": 2,
+      "calendar": "lunar",
+      "name": "Vía Đức Thái Thượng Lão Quân",
+      "ceremony": "Đại đàn",
+      "note": ""
+    },
+    {
+      "id": "via-phat-quan-am",
+      "day": 19,
+      "month": 2,
+      "calendar": "lunar",
+      "name": "Vía Đức Phật Quan Âm",
+      "ceremony": "Đại đàn",
+      "note": ""
+    },
+    {
+      "id": "via-phat-thich-ca",
+      "day": 8,
+      "month": 4,
+      "calendar": "lunar",
+      "name": "Vía Đức Phật Thích Ca",
+      "ceremony": "Đại đàn",
+      "note": ""
+    },
+    {
+      "id": "ky-niem-quy-thien-thang-tu",
+      "day": 10,
+      "month": 4,
+      "calendar": "lunar",
+      "name": "Kỷ niệm ngày qui thiên của Đức Hộ Pháp, Đức Thượng Phẩm, Đức Thượng Sanh và quý Thời Quân",
+      "ceremony": "Tiểu đàn",
+      "note": ""
+    },
+    {
+      "id": "via-quan-thanh",
+      "day": 24,
+      "month": 6,
+      "calendar": "lunar",
+      "name": "Vía Đức Quan Thánh Đế Quân",
+      "ceremony": "Đại đàn",
+      "note": ""
+    },
+    {
+      "id": "le-trung-nguyen",
+      "day": 15,
+      "month": 7,
+      "calendar": "lunar",
+      "name": "Lễ Trung Ngươn",
+      "ceremony": "Đại đàn",
+      "note": ""
+    },
+    {
+      "id": "hoi-yen-dieu-tri-cung",
+      "day": 15,
+      "month": 8,
+      "calendar": "lunar",
+      "name": "Hội Yến Diêu Trì Cung - Lễ vía Đức Phật Mẫu",
+      "ceremony": "Tiểu đàn",
+      "note": "Lễ lớn thứ hai"
+    },
+    {
+      "id": "via-ly-dai-tien",
+      "day": 18,
+      "month": 8,
+      "calendar": "lunar",
+      "name": "Vía Đức Lý Đại Tiên kiêm Giáo Tông Đại Đạo Tam Kỳ Phổ Độ",
+      "ceremony": "Đại đàn",
+      "note": ""
+    },
+    {
+      "id": "via-duc-khong-thanh",
+      "day": 27,
+      "month": 8,
+      "calendar": "lunar",
+      "name": "Vía Đức Khổng Thánh",
+      "ceremony": "Đại đàn",
+      "note": ""
+    },
+    {
+      "id": "ky-niem-quy-thien-thang-muoi",
+      "day": 13,
+      "month": 10,
+      "calendar": "lunar",
+      "name": "Kỷ niệm ngày qui thiên của Đức Quyền Giáo Tông, quý Đầu Sư và Chức sắc Hiến/Thanh/Đạo (Nam Nữ)",
+      "ceremony": "Tiểu đàn",
+      "note": ""
+    },
+    {
+      "id": "le-ha-nguyen",
+      "day": 15,
+      "month": 10,
+      "calendar": "lunar",
+      "name": "Lễ Hạ Ngươn và kỷ niệm ngày khai Đại Đạo Tam Kỳ Phổ Độ",
+      "ceremony": "Đại đàn",
+      "note": ""
+    },
+    {
+      "id": "le-dua-chu-than",
+      "day": 24,
+      "month": 12,
+      "calendar": "lunar",
+      "name": "Lễ đưa chư Thần, Thánh, Tiên, Phật triều Thiên",
+      "ceremony": "Tiểu đàn",
+      "note": ""
+    },
+    {
+      "id": "via-duc-jesus-christ",
+      "day": 25,
+      "month": 12,
+      "calendar": "solar",
+      "name": "Vía Đức Jésus Christ",
+      "ceremony": "Đại đàn",
+      "note": ""
+    }
+  ]
+}
