@@ -72,8 +72,8 @@ footer { text-align:center; padding:0 12px 24px; font-size:12px; color:#63736a; 
 <aside class="panel detail-panel"><div class="content">
   <h2>Chi tiết ngày</h2><div id="detail"></div>
   <div class="settings"><h3>Thiết lập ăn chay</h3><label for="mode">Chế độ ăn chay</label>
-    <select id="mode"><option value="full">Chưa chọn/Chay trường</option><option value="10">Chay kỳ 10 ngày</option><option value="6">Chay kỳ 6 ngày</option></select>
-    <div class="hint">Lựa chọn tự động lưu trên trình duyệt này. Khi chọn Chưa chọn/Chay trường, lịch âm–dương vẫn hiển thị, nhưng dấu và danh sách ngày ăn chay định kỳ sẽ được ẩn.</div>
+    <select id="mode"><option value="full">Chay trường</option><option value="10">Chay kỳ 10 ngày</option><option value="6">Chay kỳ 6 ngày</option></select>
+    <div class="hint">Lựa chọn tự động lưu trên trình duyệt này. Khi chọn Chay trường, lịch âm–dương vẫn hiển thị, nhưng dấu và danh sách ngày ăn chay định kỳ sẽ được ẩn.</div>
   </div>
   <div id="holidayDetail"></div>
   <div id="holidayMonthSection"><h3 style="margin-top:20px">Ngày lễ Cao Đài trong tháng</h3><div id="holidayMonthList"></div></div>
@@ -212,7 +212,7 @@ function renderCalendar() {
 }
 function renderDetail() {
   const date=new Date(selected.y,selected.m-1,selected.d),lunar=solarToLunar(selected.d,selected.m,selected.y); let status;
-  if(mode==="full") status='<div class="status full">Bạn đang chọn chế độ Chưa chọn/Chay trường.</div>';
+  if(mode==="full") status='<div class="status full">Bạn đang chọn chế độ ăn chay trường.</div>';
   else if(isVeg(lunar)) status='<div class="status">● Đây là ngày ăn chay theo chế độ đã chọn.</div>';
   else status='<div class="status no">Không phải ngày ăn chay theo lịch định kỳ đã chọn.</div>';
   detail.innerHTML=`<div class="big-date">${weekdays[date.getDay()]}</div><div>Ngày dương lịch</div><h3>${solarText(selected.d,selected.m,selected.y)}</h3><div class="detail-grid"><div class="detail-item"><small>Ngày âm lịch</small><strong>${lunar.day}/${lunar.month}/${lunar.year}${lunar.leap?" (tháng nhuận)":""}</strong></div><div class="detail-item"><small>Độ dài tháng âm</small><strong>${lunar.monthLength} ngày</strong></div></div>${status}`;
