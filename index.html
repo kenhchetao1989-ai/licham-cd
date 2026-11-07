@@ -586,7 +586,7 @@ function renderHolidayMonthList() {
 const date = document.createElement("div");
 date.textContent =
   `ÂL ${lunar.day}/${lunar.month}${lunar.leap ? " nhuận" : ""}` +
-  ` · DL ${solarText(item.solarDay, viewMonth)}` +
+  ` · DL ${String(item.solarDay).padStart(2, "0")}/${String(viewMonth).padStart(2, "0")}` +
   ` · ${item.holiday.ceremony}`;
 
     row.append(title, date);
