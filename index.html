@@ -798,12 +798,12 @@ function renderVegList() {
   }
 
   days.forEach(item=>{
-    const chip = document.createElement("span");
-    chip.className = "veg-chip";
-    chip.textContent =
-      `${item.solar}/${viewMonth} · ÂL ${item.lunar.day}/${item.lunar.month}`;
-    list.appendChild(chip);
-  });
+  const chip = document.createElement("span");
+  chip.className = "veg-chip";
+  chip.textContent = `ÂL ${item.lunar.day}/${item.lunar.month}`;
+  list.appendChild(chip);
+});
+
 }
 
 document.getElementById("prev").addEventListener("click",()=>{
