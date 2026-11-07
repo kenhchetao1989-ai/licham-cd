@@ -582,10 +582,12 @@ function renderHolidayMonthList() {
     const title = document.createElement("strong");
     title.textContent = item.holiday.name;
 
-    const date = document.createElement("div");
-    date.textContent =
-      `${item.solarDay}/${viewMonth}/${viewYear}` +
-      ` · ${item.holiday.ceremony}`;
+    const lunar = solarToLunar(item.solarDay, viewMonth, viewYear);
+const date = document.createElement("div");
+date.textContent =
+  `ÂL ${lunar.day}/${lunar.month}${lunar.leap ? " nhuận" : ""}/${lunar.year}` +
+  ` · DL ${solarText(item.solarDay, viewMonth, viewYear)}` +
+  ` · ${item.holiday.ceremony}`;
 
     row.append(title, date);
 
